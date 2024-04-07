@@ -10,7 +10,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Main {
     public static void main(String[] args) {
         int [] arr = new int[1000000000];
-        int target = 6;
+        int target = 16;
         int counterHere = 0;
         Random random = new Random();
         Lock lock = new ReentrantLock();
